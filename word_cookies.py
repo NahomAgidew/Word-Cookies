@@ -12,7 +12,7 @@ from PyDictionary import PyDictionary
 
 dictionary = PyDictionary()
 
-letters = raw_input('Input Letters:').split(',')
+letters = raw_input('Input Letters (separated by comma):').split(',')
 length = int(raw_input('Input length of word:'))
 perms = permutations(letters, length)
 
